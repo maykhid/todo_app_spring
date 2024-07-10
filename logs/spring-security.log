@@ -1,19 +1,19 @@
-2024-07-07T07:47:59.325+01:00  INFO 43129 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 43129 (/Users/owner/Dev/Java Spring/todo_app/target/classes started by owner in /Users/owner/Dev/Java Spring/todo_app)
-2024-07-07T07:47:59.351+01:00  INFO 43129 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
-2024-07-07T07:48:00.165+01:00  INFO 43129 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-07T07:48:00.231+01:00  INFO 43129 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
-2024-07-07T07:48:00.860+01:00  INFO 43129 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-07-07T07:48:00.874+01:00  INFO 43129 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-07T07:48:00.875+01:00  INFO 43129 --- [todo_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-07T07:48:00.946+01:00  INFO 43129 --- [todo_app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-07T07:48:00.947+01:00  INFO 43129 --- [todo_app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1509 ms
-2024-07-07T07:48:01.098+01:00  INFO 43129 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-07T07:48:02.200+01:00  INFO 43129 --- [todo_app] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-07T07:48:02.268+01:00  INFO 43129 --- [todo_app] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-07T07:48:02.325+01:00  INFO 43129 --- [todo_app] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-07T07:48:02.652+01:00  INFO 43129 --- [todo_app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-07T07:48:02.681+01:00  INFO 43129 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-07T07:48:03.689+01:00  WARN 43129 --- [todo_app] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2024-07-10T17:22:36.103+01:00  INFO 53948 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 53948 (/Users/owner/Dev/Java Spring/todo_app/target/classes started by owner in /Users/owner/Dev/Java Spring/todo_app)
+2024-07-10T17:22:36.120+01:00  INFO 53948 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-07-10T17:22:37.016+01:00  INFO 53948 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10T17:22:37.098+01:00  INFO 53948 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2024-07-10T17:22:37.891+01:00  INFO 53948 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-10T17:22:37.910+01:00  INFO 53948 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-10T17:22:37.911+01:00  INFO 53948 --- [todo_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-10T17:22:37.976+01:00  INFO 53948 --- [todo_app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-10T17:22:37.977+01:00  INFO 53948 --- [todo_app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1783 ms
+2024-07-10T17:22:38.150+01:00  INFO 53948 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-10T17:22:39.255+01:00  INFO 53948 --- [todo_app] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10T17:22:39.329+01:00  INFO 53948 --- [todo_app] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10T17:22:39.373+01:00  INFO 53948 --- [todo_app] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-10T17:22:39.704+01:00  INFO 53948 --- [todo_app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10T17:22:39.733+01:00  INFO 53948 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-10T17:22:40.740+01:00  WARN 53948 --- [todo_app] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
@@ -139,240 +139,11 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
 	at com.example.todo_app.TodoAppApplication.main(TodoAppApplication.java:10) ~[classes/:na]
 
-2024-07-07T07:48:03.701+01:00 ERROR 43129 --- [todo_app] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-07-07T07:48:03.702+01:00 ERROR 43129 --- [todo_app] [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userConfig': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.todo_app.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
-2024-07-07T07:48:03.735+01:00  INFO 43129 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-07-07T07:48:03.740+01:00  WARN 43129 --- [todo_app] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
-2024-07-07T07:48:03.749+01:00  INFO 43129 --- [todo_app] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-07-07T07:48:03.768+01:00 ERROR 43129 --- [todo_app] [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.context.ApplicationContextException: Unable to start web server
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.1.8.jar:6.1.8]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
-	at com.example.todo_app.TodoAppApplication.main(TodoAppApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.3.0.jar:3.3.0]
-	... 8 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'userConfig': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.todo_app.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.3.0.jar:3.3.0]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.3.0.jar:3.3.0]
-	... 13 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userConfig': Unsatisfied dependency expressed through field 'userRepository': Error creating bean with name 'userRepository' defined in com.example.todo_app.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.8.jar:6.1.8]
-	... 55 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.example.todo_app.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.8.jar:6.1.8]
-	... 69 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.8.jar:6.1.8]
-	... 82 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.8.jar:6.1.8]
-	... 94 common frames omitted
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.8.jar:6.1.8]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.8.jar:6.1.8]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.8.jar:6.1.8]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.8.jar:6.1.8]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.8.jar:6.1.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.8.jar:6.1.8]
-	... 101 common frames omitted
-Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:362) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:123) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
-	... 116 common frames omitted
-
-2024-07-07T07:48:37.134+01:00  INFO 43288 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 43288 (/Users/owner/Dev/Java Spring/todo_app/target/classes started by owner in /Users/owner/Dev/Java Spring/todo_app)
-2024-07-07T07:48:37.138+01:00  INFO 43288 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
-2024-07-07T07:48:37.841+01:00  INFO 43288 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-07T07:48:37.908+01:00  INFO 43288 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2024-07-07T07:48:38.478+01:00  INFO 43288 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-07-07T07:48:38.492+01:00  INFO 43288 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-07T07:48:38.492+01:00  INFO 43288 --- [todo_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-07T07:48:38.547+01:00  INFO 43288 --- [todo_app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-07T07:48:38.548+01:00  INFO 43288 --- [todo_app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1361 ms
-2024-07-07T07:48:38.687+01:00  INFO 43288 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-07T07:48:38.824+01:00  INFO 43288 --- [todo_app] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cd96b41
-2024-07-07T07:48:38.826+01:00  INFO 43288 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-07-07T07:48:38.885+01:00  INFO 43288 --- [todo_app] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-07T07:48:38.946+01:00  INFO 43288 --- [todo_app] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-07T07:48:38.982+01:00  INFO 43288 --- [todo_app] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-07T07:48:39.389+01:00  INFO 43288 --- [todo_app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-07T07:48:40.425+01:00  INFO 43288 --- [todo_app] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-07T07:48:40.428+01:00  INFO 43288 --- [todo_app] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T07:48:40.849+01:00  INFO 43288 --- [todo_app] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userConfig
-2024-07-07T07:48:40.923+01:00  WARN 43288 --- [todo_app] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-07T07:48:41.247+01:00  INFO 43288 --- [todo_app] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b53c3c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17e66aed, org.springframework.security.web.context.SecurityContextHolderFilter@20a3321a, org.springframework.security.web.header.HeaderWriterFilter@79d3c655, org.springframework.web.filter.CorsFilter@65dd2191, org.springframework.security.web.authentication.logout.LogoutFilter@329aa2d1, com.example.todo_app.auth.security.JwtAuthenticationFilter@62871522, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@60658389, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f5a25e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ecf784f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a905513, org.springframework.security.web.session.SessionManagementFilter@5dd12c19, org.springframework.security.web.access.ExceptionTranslationFilter@188058fb, org.springframework.security.web.access.intercept.AuthorizationFilter@bddac1c]
-2024-07-07T07:48:41.460+01:00  INFO 43288 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-07-07T07:48:41.471+01:00  INFO 43288 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Started TodoAppApplication in 4.868 seconds (process running for 5.224)
-2024-07-07T07:59:48.491+01:00  INFO 43288 --- [todo_app] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T07:59:48.493+01:00  INFO 43288 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-07-07T07:59:48.499+01:00  INFO 43288 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-07-07T07:59:52.366+01:00  INFO 46049 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 46049 (/Users/owner/Dev/Java Spring/todo_app/target/classes started by owner in /Users/owner/Dev/Java Spring/todo_app)
-2024-07-07T07:59:52.371+01:00  INFO 46049 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
-2024-07-07T07:59:53.315+01:00  INFO 46049 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-07T07:59:53.387+01:00  INFO 46049 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
-2024-07-07T07:59:54.080+01:00  INFO 46049 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-07-07T07:59:54.095+01:00  INFO 46049 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-07T07:59:54.095+01:00  INFO 46049 --- [todo_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-07T07:59:54.164+01:00  INFO 46049 --- [todo_app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-07T07:59:54.164+01:00  INFO 46049 --- [todo_app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1719 ms
-2024-07-07T07:59:54.320+01:00  INFO 46049 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-07T07:59:54.457+01:00  INFO 46049 --- [todo_app] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc65c2
-2024-07-07T07:59:54.459+01:00  INFO 46049 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-07-07T07:59:54.520+01:00  INFO 46049 --- [todo_app] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-07T07:59:54.626+01:00  INFO 46049 --- [todo_app] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-07T07:59:54.696+01:00  INFO 46049 --- [todo_app] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-07T07:59:55.057+01:00  INFO 46049 --- [todo_app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-07T07:59:55.959+01:00  INFO 46049 --- [todo_app] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-07T07:59:55.961+01:00  INFO 46049 --- [todo_app] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T07:59:56.411+01:00  INFO 46049 --- [todo_app] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userConfig
-2024-07-07T07:59:56.485+01:00  WARN 46049 --- [todo_app] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-07T07:59:56.767+01:00  INFO 46049 --- [todo_app] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f98fe6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b0d4873, org.springframework.security.web.context.SecurityContextHolderFilter@6cb759d5, org.springframework.security.web.header.HeaderWriterFilter@13552290, org.springframework.web.filter.CorsFilter@7d0312a, org.springframework.security.web.authentication.logout.LogoutFilter@6464f017, com.example.todo_app.auth.security.JwtAuthenticationFilter@78e7b83, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17e66aed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f233f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cac0334, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f00c40e, org.springframework.security.web.session.SessionManagementFilter@744673f3, org.springframework.security.web.access.ExceptionTranslationFilter@5837cb9e, org.springframework.security.web.access.intercept.AuthorizationFilter@5749e633]
-2024-07-07T07:59:56.993+01:00  INFO 46049 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-07-07T07:59:57.006+01:00  INFO 46049 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Started TodoAppApplication in 5.443 seconds (process running for 5.809)
-2024-07-07T09:23:41.396+01:00  INFO 46049 --- [todo_app] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T09:23:41.404+01:00  INFO 46049 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-07-07T09:23:41.409+01:00  INFO 46049 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-07-07T09:23:43.012+01:00  INFO 66774 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Starting TodoAppApplication using Java 22.0.1 with PID 66774 (/Users/owner/Dev/Java Spring/todo_app/target/classes started by owner in /Users/owner/Dev/Java Spring/todo_app)
-2024-07-07T09:23:43.014+01:00  INFO 66774 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : No active profile set, falling back to 1 default profile: "default"
-2024-07-07T09:23:43.824+01:00  INFO 66774 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-07-07T09:23:43.905+01:00  INFO 66774 --- [todo_app] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
-2024-07-07T09:23:44.605+01:00  INFO 66774 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-07-07T09:23:44.621+01:00  INFO 66774 --- [todo_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-07T09:23:44.622+01:00  INFO 66774 --- [todo_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-07T09:23:44.693+01:00  INFO 66774 --- [todo_app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-07T09:23:44.694+01:00  INFO 66774 --- [todo_app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
-2024-07-07T09:23:44.903+01:00  INFO 66774 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-07-07T09:23:45.068+01:00  INFO 66774 --- [todo_app] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7792d851
-2024-07-07T09:23:45.070+01:00  INFO 66774 --- [todo_app] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-07-07T09:23:45.135+01:00  INFO 66774 --- [todo_app] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-07-07T09:23:45.207+01:00  INFO 66774 --- [todo_app] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-07-07T09:23:45.243+01:00  INFO 66774 --- [todo_app] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-07-07T09:23:45.560+01:00  INFO 66774 --- [todo_app] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-07-07T09:23:46.435+01:00  INFO 66774 --- [todo_app] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-07-07T09:23:46.437+01:00  INFO 66774 --- [todo_app] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T09:23:46.785+01:00  INFO 66774 --- [todo_app] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userConfig
-2024-07-07T09:23:46.838+01:00  WARN 66774 --- [todo_app] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-07-07T09:23:47.100+01:00  INFO 66774 --- [todo_app] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e563293, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b53c3c5, org.springframework.security.web.context.SecurityContextHolderFilter@3ce2c5f6, org.springframework.security.web.header.HeaderWriterFilter@914ab92, org.springframework.web.filter.CorsFilter@17e66aed, org.springframework.security.web.authentication.logout.LogoutFilter@67683210, com.example.todo_app.auth.security.JwtAuthenticationFilter@62871522, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47d4468a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@744673f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a36ff0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65dd2191, org.springframework.security.web.session.SessionManagementFilter@2f3d5cd, org.springframework.security.web.access.ExceptionTranslationFilter@6b7a0f18, org.springframework.security.web.access.intercept.AuthorizationFilter@7c919e1e]
-2024-07-07T09:23:47.301+01:00  INFO 66774 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-07-07T09:23:47.309+01:00  INFO 66774 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Started TodoAppApplication in 4.983 seconds (process running for 5.371)
-2024-07-07T10:00:29.663+01:00  INFO 66774 --- [todo_app] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-07-07T10:00:29.675+01:00  INFO 66774 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-07-07T10:00:29.682+01:00  INFO 66774 --- [todo_app] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-10T17:22:40.777+01:00  WARN 53948 --- [todo_app] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10T17:22:41.721+01:00  INFO 53948 --- [todo_app] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10T17:22:41.724+01:00  INFO 53948 --- [todo_app] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10T17:22:42.069+01:00  INFO 53948 --- [todo_app] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userConfig
+2024-07-10T17:22:42.114+01:00  WARN 53948 --- [todo_app] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10T17:22:42.412+01:00  INFO 53948 --- [todo_app] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@694c0ed1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@118f2486, org.springframework.security.web.context.SecurityContextHolderFilter@6d94a966, org.springframework.security.web.header.HeaderWriterFilter@34f32575, org.springframework.web.filter.CorsFilter@4d071e4b, org.springframework.security.web.authentication.logout.LogoutFilter@13e5b262, com.example.todo_app.auth.security.JwtAuthenticationFilter@9fc2f89, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3cd89c72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@445b4594, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23dda7a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b441609, org.springframework.security.web.session.SessionManagementFilter@3ace65df, org.springframework.security.web.access.ExceptionTranslationFilter@3a225534, org.springframework.security.web.access.intercept.AuthorizationFilter@34114276]
+2024-07-10T17:22:42.643+01:00  INFO 53948 --- [todo_app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-10T17:22:42.656+01:00  INFO 53948 --- [todo_app] [main] c.example.todo_app.TodoAppApplication    : Started TodoAppApplication in 7.148 seconds (process running for 7.608)
