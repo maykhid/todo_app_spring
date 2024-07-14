@@ -53,7 +53,7 @@ public class TodoConfig implements CommandLineRunner{
 
         Todo defTodo2 = new Todo(
             "Call Mum",
-            "Call Mum about her funds",
+            "Call Mum about her fundss",
             LocalDate.now(),
             Long.valueOf(102)
         );
